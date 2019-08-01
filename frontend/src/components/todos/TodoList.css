@@ -1,0 +1,67 @@
+.modal-dialog {
+  position: relative;
+  top: 200px;
+}
+
+.todo-title {
+  cursor: pointer;
+}
+
+.completed-todo {
+  text-decoration: line-through;
+}
+
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid #282c34;
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tab-list > span.active {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.show {
+  opacity: 1;
+}
+
+.row {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #dcdcdc;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card div {
+  margin-bottom: 30px;
+}
+
+li.list-group-item {
+  /* margin-bottom: 10px; */
+  border-left-color: white;
+  border-right-color: white;
+  padding: 20px 20px 25px 0px;
+}
+
+span.todo-action{
+  position:relative;
+  float: right;
+}
+
+span.todo-action button{
+  margin-left: 10px;
+  padding-bottom: 3px;
+}
+
+span.todo-description.mr-2{
+  color: grey;
+  display: inline-block;
+}

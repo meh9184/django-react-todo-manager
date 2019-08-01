@@ -1,0 +1,128 @@
+[
+    {
+        "model": "todo.todo",
+        "pk": 1,
+        "fields": {
+            "title": "Session / Cookie",
+            "description": "Session, Cookie 기반 인증 방법 공부하기",
+            "completed": 1
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 2,
+        "fields": {
+            "title": "Access Token / Refresh Token",
+            "description": "Access Token, Refresh Token 기반 인증 방법 공부하기",
+            "completed": 1
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 3,
+        "fields": {
+            "title": "OAuth 프로토콜 인증",
+            "description": "OAuth 프로토콜 인증 방법 공부하기",
+            "completed": 1
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 4,
+        "fields": {
+            "title": "Python / Django",
+            "description": "Python, Django로 Backend Server 만들어보기",
+            "completed": 1
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 5,
+        "fields": {
+            "title": "ES6 / React",
+            "description": "ES6, React로 Frontend Webapp 만들어보기",
+            "completed": 1
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 6,
+        "fields": {
+            "title": "Backend - Djagno",
+            "description": "Django Framework 환경 Setting 하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 7,
+        "fields": {
+            "title": "Backend - REST API",
+            "description": "Djanog REST API 관련 Setting 및 API 개발하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 8,
+        "fields": {
+            "title": "Backend - JWT",
+            "description": "JWT 토큰 이용한 Authentication 프로토콜 적용하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 9,
+        "fields": {
+            "title": "Frontent - React",
+            "description": "React Web App 생성 및 모듈 Setting 하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 10,
+        "fields": {
+            "title": "Frontend - Google Login",
+            "description": "Oauth2.0 기반 Google 로그인 개발하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 11,
+        "fields": {
+            "title": "Frontend - Todo App",
+            "description": "로그인 인증에 따른 Todo App 개발하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 12,
+        "fields": {
+            "title": "Backend - Refresh Token",
+            "description": "Refresh Token 이용한 인증 구현하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 13,
+        "fields": {
+            "title": "Docker - CI",
+            "description": "Docker로 배포 관리하기",
+            "completed": 0
+        }
+    },
+    {
+        "model": "todo.todo",
+        "pk": 14,
+        "fields": {
+            "title": "AWS",
+            "description": "AWS 이용하기",
+            "completed": 0
+        }
+    }
+]

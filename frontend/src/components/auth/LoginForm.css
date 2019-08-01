@@ -1,0 +1,21 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login-google {
+    padding-top: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .Login-google button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
