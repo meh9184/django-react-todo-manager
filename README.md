@@ -64,7 +64,7 @@
 >   | --- | --- | --- | --- | --- |
 >   |**POST** |/login|CREATE| None |Google의 ID 토큰을 받아 JWT를 반환|
 >   |**GET** |/validate|READ| Access Token |JWT를 받아 토큰을 검증하여 상태코드로 반환|
->   |**POST** |/api/members|CREATE| Access Token |JWT를 받아 토큰을 검증하여 새로운 토큰 반환|
+>   |**POST** |/refresh|CREATE| Access Token |JWT를 받아 토큰을 검증하여 새로운 토큰 반환|
 > 
 > - 회원(User) 리소스 관련 API
 > 
@@ -72,9 +72,6 @@
 >   | --- | --- | --- | --- | --- |
 >   |**GET** |/user|LIST| Access Token |모든 User 조회|
 >   |**POST** |/user|CREATE| Access Token |하나의 User 생성|
->   |**GET** |/user/user_id|READ| Access Token |하나의 User 조회|
->   |**PUT** |/user/user_id|UPDATE| Access Token |하나의 User 수정|
->   |**DELETE** |/user/user_id|DELETE| Access Token |하나의 User 삭제|
 >   |**GET** |/user/current|READ| Access Token |현재 접속중인 User 조회|
 > 
 > - 일과(Todo) 리소스 관련 API
@@ -141,7 +138,7 @@
 >   | File Name |  Directory | 목적 |
 >   | --- | --- | --- |
 >   | LoginForm.js | /components/auth/ |로그인 Form (기존 회원 or 구글 계정)|
->   | SignupForm.js | /components/auth/ |웹을 수행되는 회원가입 Form|
+>   | SignupForm.js | /components/auth/ |회원가입 Form|
 >   | GoogleLoginButton.js | /components/auth/ |Custom Google Login Button 컴포넌트|
 > 
 > - 라우팅 관련 Components
@@ -159,7 +156,7 @@
 >   | TodoList.js | /components/todo/ |서버로 인증 후 받아온 Todo의 CRUD를 수행|
 >   | TodoModal.js | /components/todo/ |Todo Create/Update 하기 위한 모달 윈도 컴포넌트|
 > 
-> - State 및 핸들러 관리 관련 Components
+> - State 및 핸들러 관련 Components
 > 
 >   | File Name |  Directory | 목적 |
 >   | --- | --- | --- |
