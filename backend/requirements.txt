@@ -3,7 +3,7 @@ certifi==2019.6.16
 chardet==3.0.4
 Django==2.2.3
 django-cors-headers==3.0.2
-djangorestframework==3.10.1
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 httplib2==0.13.0
 idna==2.8
