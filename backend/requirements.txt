@@ -16,7 +16,7 @@ PyJWT==1.7.1
 pytz==2019.1
 requests==2.22.0
 requests-oauthlib==1.2.0
-rsa==4.0
+rsa==4.1
 six==1.12.0
 sqlparse==0.3.0
 uritemplate==3.0.0
