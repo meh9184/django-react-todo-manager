@@ -1,7 +1,7 @@
 cachetools==3.1.1
 certifi==2019.6.16
 chardet==3.0.4
-Django==2.2.3
+Django==2.2.27
 django-cors-headers==3.0.2
 djangorestframework==3.10.1
 djangorestframework-jwt==1.11.0
